@@ -1,0 +1,10 @@
+python=3.10.17
+platform=Linux-4.19.0-gvisor-x86_64-with-glibc2.36
+executable=/usr/local/bin/python
+qresafe_quant_without_ft_commit=unknown
+torch=2.1.2+cu118
+torch_cuda_build=11.8
+cuda_available=True
+gpu_count=1
+gpu_0=NVIDIA L40S
+transformers=4.47.1

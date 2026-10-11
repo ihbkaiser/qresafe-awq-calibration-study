@@ -1,0 +1,42 @@
+{
+  "condition": "risk1",
+  "model_id": "meta-llama/Llama-2-7b-chat-hf",
+  "bits": 4,
+  "quant_config": {
+    "zero_point": true,
+    "q_group_size": 128,
+    "w_bit": 4,
+    "version": "GEMM"
+  },
+  "seed": 42,
+  "max_calib_samples": 10,
+  "max_calib_seq_len": 128,
+  "calibration_block_length_policy": "token_matched_common_384",
+  "calibration_source": "UltraChat",
+  "calibration_sample_ids": [
+    "ultrachat-167621",
+    "ultrachat-29184",
+    "ultrachat-6556",
+    "ultrachat-194393",
+    "ultrachat-72097",
+    "ultrachat-64196",
+    "ultrachat-58513",
+    "ultrachat-36579",
+    "ultrachat-193061",
+    "ultrachat-26868"
+  ],
+  "calibration_metrics": {
+    "source_examples": 10,
+    "used_examples": 10,
+    "discarded_examples": 0,
+    "total_tokens_before_blocking": 384,
+    "original_total_tokens_before_matching": 5537,
+    "discarded_tokens": 5153,
+    "blocks": 3,
+    "mean_tokens_per_example": 38.4,
+    "token_match_target_tokens": 384,
+    "token_match_policy": "prefix_of_concatenated_rendered_stream"
+  },
+  "qresafe_quant_without_ft_commit": "unknown",
+  "token_match_target_tokens": 384
+}

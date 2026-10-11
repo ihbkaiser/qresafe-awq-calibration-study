@@ -1,0 +1,3 @@
+Record the actual Python, Torch, CUDA, GPU, Transformers, and Q-resafe commit here with:
+
+python scripts/write_environment.py --qresafe-root /path/to/Qresafe/quant-without-ft

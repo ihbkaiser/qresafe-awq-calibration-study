@@ -1,0 +1,17 @@
+# Secrets and local credentials
+hf_token
+**/hf_token
+.env
+.env.*
+*.pem
+*.key
+
+# Python and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local temporary files
+out.tmp
+*.tmp
+*.swp

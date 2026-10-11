@@ -1,0 +1,42 @@
+{
+  "condition": "risk2",
+  "model_id": "meta-llama/Llama-2-7b-chat-hf",
+  "bits": 4,
+  "quant_config": {
+    "zero_point": true,
+    "q_group_size": 128,
+    "w_bit": 4,
+    "version": "GEMM"
+  },
+  "seed": 42,
+  "max_calib_samples": 10,
+  "max_calib_seq_len": 128,
+  "calibration_block_length_policy": "token_matched_common_384",
+  "calibration_source": "Q-resafe description reconstruction",
+  "calibration_sample_ids": [
+    "risk2-reconstructed-0",
+    "risk2-reconstructed-1",
+    "risk2-reconstructed-2",
+    "risk2-reconstructed-3",
+    "risk2-reconstructed-4",
+    "risk2-reconstructed-5",
+    "risk2-reconstructed-6",
+    "risk2-reconstructed-7",
+    "risk2-reconstructed-8",
+    "risk2-reconstructed-9"
+  ],
+  "calibration_metrics": {
+    "source_examples": 10,
+    "used_examples": 10,
+    "discarded_examples": 0,
+    "total_tokens_before_blocking": 384,
+    "original_total_tokens_before_matching": 469,
+    "discarded_tokens": 85,
+    "blocks": 3,
+    "mean_tokens_per_example": 38.4,
+    "token_match_target_tokens": 384,
+    "token_match_policy": "prefix_of_concatenated_rendered_stream"
+  },
+  "qresafe_quant_without_ft_commit": "unknown",
+  "token_match_target_tokens": 384
+}

@@ -1,0 +1,8 @@
+{
+  "condition": "fp16",
+  "model_id": "meta-llama/Llama-2-7b-chat-hf",
+  "dataset": "wikitext-2-raw-v1/test",
+  "ppl": 6.942449710435678,
+  "seqlen": 2048,
+  "sequences": 166
+}

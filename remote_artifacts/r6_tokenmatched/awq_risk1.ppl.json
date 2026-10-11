@@ -1,0 +1,8 @@
+{
+  "condition": "risk1",
+  "model_id": "meta-llama/Llama-2-7b-chat-hf",
+  "dataset": "wikitext-2-raw-v1/test",
+  "ppl": 7.146369531330759,
+  "seqlen": 2048,
+  "sequences": 166
+}

@@ -1,0 +1,7 @@
+{
+  "do_sample": false,
+  "max_new_tokens": 128,
+  "seed": 42,
+  "chat_template": "tokenizer.apply_chat_template",
+  "add_generation_prompt": true
+}

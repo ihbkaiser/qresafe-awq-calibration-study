@@ -1,0 +1,4 @@
+# Install Q-resafe's pinned environment first. These are the project-specific additions.
+datasets==3.2.0
+zstandard==0.23.0
+pytest>=8.0
