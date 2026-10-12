@@ -2,7 +2,7 @@
 
 ## Consolidated report
 
-The complete five-page report with the recorded ASR/PPL tables, token-matched confirmation, calibration-token accounting, leakage check, Modal L40S environment, limitations, and reproducibility identifiers is available at [`output/pdf/qresafe_awq_calibration_report.pdf`](output/pdf/qresafe_awq_calibration_report.pdf). The report source is [`reports/build_awq_report.py`](reports/build_awq_report.py).
+The concise two-page report focuses on the fairest token-matched Risk-I/Risk-II/Risk-III confirmation, explains the 384-token/3-block design, and reports the ASR/PPL results: [`output/pdf/qresafe_awq_calibration_report.pdf`](output/pdf/qresafe_awq_calibration_report.pdf). Its source is [`reports/build_fair_report.py`](reports/build_fair_report.py).
 
 This project tests one question only:
 
