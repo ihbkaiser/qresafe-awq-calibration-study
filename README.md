@@ -1,5 +1,9 @@
 # Q-resafe AWQ calibration-data experiment
 
+## Consolidated report
+
+The complete five-page report with the recorded ASR/PPL tables, token-matched confirmation, calibration-token accounting, leakage check, Modal L40S environment, limitations, and reproducibility identifiers is available at [`output/pdf/qresafe_awq_calibration_report.pdf`](output/pdf/qresafe_awq_calibration_report.pdf). The report source is [`reports/build_awq_report.py`](reports/build_awq_report.py).
+
 This project tests one question only:
 
 > With the same safety-aligned Llama-2-7B-Chat model and the official Q-resafe AWQ implementation, does replacing the calibration corpus with Risk-I, reconstructed Risk-II, or Risk-III change held-out AdvBench ASR without fine-tuning?
